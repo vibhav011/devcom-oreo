@@ -6,6 +6,19 @@
                 color: red;
                 font-size: 30px;
             }
+            div.innerDiv {
+                border: 1px solid blue;
+                width: 400px;
+                padding: 10px;
+                margin: 30px;
+                background-color: yellow;
+            }
+            .outerDiv {
+                padding: 20px;
+                border: 2px solid green;
+                width: 700px;
+                text-align: center;
+            }
         </style>
     </head>
 <body>
@@ -13,7 +26,7 @@
     <h1 align="middle">MY PROFILE</h1>
 
     <!-- This is my image -->
-    <img src="mypic.jpg" width="300px">
+    <img src="mypic.jpg" align="right" width="300px">
 
     <br><br><br>
     The list of my achievements:
@@ -34,5 +47,11 @@
     <p class="styled-paras">This is a paragraph</p>
     <p>This is a paragraph number 2</p>
     <p class="styled-paras">This is a paragraph 3</p>
+
+    <div class="outerDiv">
+        <div class="innerDiv">
+            There is some text inside this div.
+        </div>
+    </div>
 </body>
 </html>
